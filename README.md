@@ -1,0 +1,2 @@
+# cloud-resource-inventory
+
