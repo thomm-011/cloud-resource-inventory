@@ -50,7 +50,7 @@ Instalação
 
 bash
 
-git clone https://github.com/seu-usuario/cloud-resource-inventory.git
+git clone https://github.com/thomm-011/cloud-resource-inventory.git
 cd cloud-resource-inventory
 pip install -r requirements.txt
 
@@ -215,7 +215,6 @@ alerts:
 MIT License - veja LICENSE para detalhes.
 🆘 Suporte
 
-    📧 Email: seu-email@exemplo.com
+    📧 Email: thomas.s.cordeiro@hotmail.com
     💬 Issues: GitHub Issues
     📖 Wiki: Documentação Completa
-
