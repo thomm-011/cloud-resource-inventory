@@ -1,14 +1,15 @@
 Cloud Resource Inventory 🛠️
 
 Ferramenta simples para inventariar recursos na AWS de forma programática, utilizando Python e o SDK boto3.
-✅ Funcionalidades atuais
 
+✅ Funcionalidades atuais
     Listagem de instâncias EC2
+
     Listagem de buckets S3
+
     Exportação de resultados para JSON e CSV
 
 📂 Estrutura do Projeto
-
 cloud-resource-inventory/
 ├── src/
 │   └── aws/
@@ -22,19 +23,16 @@ cloud-resource-inventory/
 Pré-requisitos
 
     Conta AWS com credenciais configuradas (via AWS CLI ou variáveis de ambiente)
+
     Python 3.x
 
 Instalação
-
-bash
 
 git clone https://github.com/thomm-011/cloud-resource-inventory.git
 cd cloud-resource-inventory
 pip install -r requirements.txt
 
 Exemplo de Uso
-
-bash
 
 # Listar EC2 e salvar como JSON
 python src/aws/inventory.py --resource ec2 --output reports/ec2_inventory.json
