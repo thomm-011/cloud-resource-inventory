@@ -43,22 +43,37 @@ python src/aws/inventory.py --resource ec2 --output reports/ec2_inventory.json
 python src/aws/inventory.py --resource s3 --output reports/s3_inventory.csv
 
 📝 Próximos Passos (Roadmap Pessoal)
-
     Adicionar suporte para RDS
+
     Melhorar a estrutura de exportação (adicionar XLSX)
+
     Futuramente incluir Azure e GCP (em projetos separados ou como módulos)
 
 👨‍💻 Propósito do Projeto
-
 Este projeto foi criado como uma forma de estudo e prática com:
 
     Boto3 (SDK da AWS para Python)
+
     Automação de inventário em nuvem
+
     Boas práticas de organização de código para infraestrutura
 
+⚠️ Segurança das Credenciais
+Este projeto não contém e nunca deve conter credenciais da AWS (Access Key ID, Secret Access Key, etc).
+
+Para rodar o código, configure suas credenciais localmente usando uma das opções:
+
+    Via AWS CLI:
+
+aws configure
+
+Ou via variáveis de ambiente:
+
+export AWS_ACCESS_KEY_ID=xxxx
+export AWS_SECRET_ACCESS_KEY=yyyy
+
 📃 Licença
-
 MIT License.
-📫 Contato
 
+📫 Contato
 Dúvidas ou sugestões: thomas.s.cordeiro@hotmail.com
