@@ -19,8 +19,8 @@ cloud-resource-inventory/
 ├── requirements.txt
 └── README.md
 
-🚀 Como Executar
-Pré-requisitos
+Como Executar
+    Pré-requisitos
 
     Conta AWS com credenciais configuradas (via AWS CLI ou variáveis de ambiente)
 
